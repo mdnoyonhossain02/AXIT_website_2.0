@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body p{
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #86878b;
+    line-height: 26px;
+
+}
+body h4{
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    font-weight: 700;
+}
+
+/* header section code start */
+
+header {
+    width: 100%;
+    background: #000;
+    padding: 7px 0px 10px;
+}
+
+header .nav-link{
+    color: #b0b0b0;
+    font-size: 17px !important;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+header .nav-link:hover{
+    color: black;
+    background: white;
+    padding: 2px 5px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+header .nav-item{
+    margin-left: 30px;
+}
+
+/* header section code end */
+
+/* banner section code start */
+
+.banner-section .logo h1{
+    color: white;
+    font-size: 88px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner-section .logo span{
+    color: #ff8b38;
+    font-size: 88px;
+    font-weight: 100;
+}
+
+.banner-section h2{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 36px;
+    font-weight: 300;
+    width: 69%;
+    font-family: "Raleway", sans-serif;
+}
+.underline{
+    background: white;
+    height: 3px;
+    width: 100px;
+    margin: 30px 0px ;
+}
+
+.banner-section p{
+    color: white;
+    font-weight: 100;
+    width: 63%;
+    margin: 0px;
+}
+
+.banner-section .btn{
+    border-radius: 0px;
+    margin: 40px 0px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    transition: 0.5s;
+}
+
+.banner-section .btn:hover{
+    background: #ff8b38;
+    border: 2px solid #ff8b38;
+    color: white;
+    transition: 0.5s;
+}
+
+.banner-section{
+    background: url(../img/cover.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.cus-height{
+    height: 100vh;
+}
+
+/* banner form section code start */
+
+.card{
+    width: 75% !important;
+    text-align: center;
+    border-radius: 3px !important;
+}
+
+.card .card-header{
+    background: #f5f5f5;
+    border: none !important;
+
+}
+
+.card .card-header h3{
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+
+.card .card-header h3 span{
+   text-transform: uppercase;
+   color: #ff8b38;
+}
+
+.card .card-footer{
+    border: none !important;
+    margin: 0px;
+    padding: 0px;
+    background: #ff8b38;
+}
+
+.card .card-footer input {
+    padding: 16px 150px;
+    background: #ff8b38;
+    border: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.card .card-footer input:hover {
+    background: #939292;
+    color: white;
+    transition: 0.5s;
+}
+
+.form-control{
+    border: none !important;
+    border-bottom: 1px solid #d7d7da !important;
+    margin: 0px 0px 40px;
+}
+
+
+/* banner form section code end */
+
+/* banner section code end */
+
+/* social icon secton code start */
+
+.social-icon h4{
+    font-family: "Open Sans", sans-serif;
+    margin: 0px;
+    font-weight: 700;
+}
+
+
+.social-icon p{
+    margin: 5px 0px 0px;
+}
+
+.social-icon{
+    width: 100%;
+    border-bottom: 2px solid #d7d7da;
+    padding: 15px 0px;
+}
+.social-icon i {
+    font-size: 50px;
+    margin-left: 68px;
+    color: #86878b;
+}
+/* social icon section code end */
+
+/* tab section code start */
+
+.tab-section{
+    width: 100%;
+    padding: 100px 0px;
+    background: #f5f5f5;
+}
+
+.tab-section .box {
+    height: 112px;
+    width: 112px;
+    margin:1px 0px;
+    background: black;
+    color: white;
+    line-height: 110px;
+    text-align: center;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.tab-section .box:hover{
+   
+    background: #ff8b38;
+    transition: 0.5s;
+}
+
+.tab-section a{
+    text-decoration: none;
+}
+
+.tab-section .tab-header h4{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    margin-bottom:30px;
+}
+
+.tab-body .p-1{
+    margin: 0px;
+    width: 87%;
+}
+.tab-body .p-2{
+    margin: -10px -4px;
+    width: 88%;
+}
+
+.tab-footer .btn-info{
+    color: white;
+    background: #ff8b38;
+    border: 0px;
+    font-weight: 500;
+    font-size: 18px;
+    margin: 20px 0px 40px;
+    padding: 8px 28px;
+    transition: 0.5s;
+}
+
+.tab-footer .btn-info:hover{
+    background:black;
+    transition: 0.5s;
+}
+/* tab section code end */
+
+/* sub list section code start */
+
+.sub-list-section{
+    width: 100%;
+    padding: 75px 0px;
+}
+
+.sub-list-section img{
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 10px 10px; 
+}
+
+.sub-list-section .sub-header .underline{
+    height: 3px;
+    width: 85px;
+    margin: 25px 0px;
+    background: #ff8b38;
+}
+
+.sub-list-section .sub-body p{
+    width: 75%;
+    margin-bottom: 45px;
+}
+
+.sub-list-section .sub-footer h6{
+    font-family: "Open Sans", sans-serif;
+}
+
+.sub-list-section .sub-footer .content {
+    display: flex;
+}
+.sub-inner-content {
+    width: 69%;
+}
+.sub-list-section .sub-icon i {
+    margin-right: 30px;
+    border: 2px solid #ff8b38;
+    color: #ff8b38;
+    padding: 14px 12px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+.sub-list-section .sub-inner-content h5{
+    font-size: 17px;
+    color: #212121;
+    font-family: "Open Sans", sans-serif;
+  
+}
+
+.sub-list-section .sub-inner-content p{
+    width: 98%;
+
+}
+
+/* sub list section code end */
+
+/* standard section code start */
+
+.standard-section{
+    width: 100%;
+    background:  #f5f5f5;
+    padding: 118px 0px;
+}
+
+.standard-section .underline{
+    height: 3px;
+    width: 105px;
+    margin: 25px 0px;
+    background: #ff8b38;
+}
+
+.standard-section .standard-body p{
+    width: 85%;
+    margin-bottom: 20px;
+}
+
+.standard-section .standard-footer p{
+    width: 86%;
+    margin: 0px;
+    
+}
+
+.standard-section .left{
+    margin-bottom: 60px;
+}
+
+.standard-section img{
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 10px 10px; 
+}
+
+/* standard section code end */
+
+.awesome-section{
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.awesome-section h1{
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.awesome-section .underline{
+    width: 5%;
+    height: 3px;
+    background: #ff8b38;
+    margin: 25px auto;
+}
+
+.awesome-section .content i{
+    border: 3px solid #ff8b38;
+    color: #ff8b38;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+.awesome-section .content-heading h3{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    margin: 35px 0px 25px;
+}
+
+.awesome-section .content-p p{
+    padding: 0px 15px;
+}
+
+.awesome-section .content{
+    margin-top: 50px;
+}
